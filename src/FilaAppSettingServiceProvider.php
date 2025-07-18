@@ -81,11 +81,7 @@ class FilaAppSettingServiceProvider extends PackageServiceProvider
         }
 
         // Testing
-<<<<<<< HEAD
         Testable::mixin(new TestsFilaAppSetting());
-=======
-        Testable::mixin(new TestsFilaAppsetting);
->>>>>>> 8d18ff41d61e82b780256f4ec46d75dfad944204
     }
 
     protected function getAssetPackageName(): ?string
