@@ -3,8 +3,7 @@
 namespace AsayHome\FilaAppSetting;
 
 use AsayHome\FilaAppSetting\Commands\FilaAppSettingCommand;
-use AsayHome\FilaAppSetting\Testing\TestsFilaAppsetting;
-use Filament\Support\Assets\AlpineComponent;
+use AsayHome\FilaAppSetting\Testing\TestsFilaAppSetting;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
