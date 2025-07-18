@@ -2,6 +2,8 @@
 
 namespace AsayHome\FilaAppSetting;
 
+use AsayHome\FilaAppSetting\Commands\FilaAppSettingCommand;
+use AsayHome\FilaAppSetting\Testing\TestsFilaAppsetting;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AsayHome\FilaAppSetting\Commands\FilaAppSettingCommand;
-use AsayHome\FilaAppSetting\Testing\TestsFilaAppSetting;
 
 class FilaAppSettingServiceProvider extends PackageServiceProvider
 {
@@ -81,7 +81,11 @@ class FilaAppSettingServiceProvider extends PackageServiceProvider
         }
 
         // Testing
+<<<<<<< HEAD
         Testable::mixin(new TestsFilaAppSetting());
+=======
+        Testable::mixin(new TestsFilaAppsetting);
+>>>>>>> 8d18ff41d61e82b780256f4ec46d75dfad944204
     }
 
     protected function getAssetPackageName(): ?string
