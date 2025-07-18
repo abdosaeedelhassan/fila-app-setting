@@ -14,9 +14,9 @@ use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use AsayHome\FilaAppSetting\Commands\FilaAppSettingCommand;
-use AsayHome\FilaAppSetting\Testing\TestsFilaAppsetting;
+use AsayHome\FilaAppSetting\Testing\TestsFilaAppSetting;
 
-class FilaAppsettingServiceProvider extends PackageServiceProvider
+class FilaAppSettingServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'fila-app-setting';
 
@@ -81,7 +81,7 @@ class FilaAppsettingServiceProvider extends PackageServiceProvider
         }
 
         // Testing
-        Testable::mixin(new TestsFilaAppsetting());
+        Testable::mixin(new TestsFilaAppSetting());
     }
 
     protected function getAssetPackageName(): ?string
