@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class FilaAppSettingCommand extends Command
 {
-    public $signature = 'fila-app-setting';
+    public $signature = 'fila-app-setting:setup';
 
     public $description = 'My command';
 

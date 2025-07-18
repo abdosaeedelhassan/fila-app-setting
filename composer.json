@@ -1,6 +1,6 @@
 {
     "name": "asayhome/fila-app-setting",
-    "description": ":package_description",
+    "description": "Filament app setting plugin, contain basic functionality required in every project.",
     "keywords": [
         "asayhome",
         "laravel",

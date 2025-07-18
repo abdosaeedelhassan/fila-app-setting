@@ -4,7 +4,7 @@ namespace AsayHome\FilaAppSetting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Skeleton extends Facade
+class FilaAppSetting extends Facade
 {
     protected static function getFacadeAccessor()
     {

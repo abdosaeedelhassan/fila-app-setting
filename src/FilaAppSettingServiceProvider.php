@@ -13,7 +13,7 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AsayHome\FilaAppSetting\Commands\FilaAppsettingCommand;
+use AsayHome\FilaAppSetting\Commands\FilaAppSettingCommand;
 use AsayHome\FilaAppSetting\Testing\TestsFilaAppsetting;
 
 class FilaAppsettingServiceProvider extends PackageServiceProvider
@@ -107,7 +107,7 @@ class FilaAppsettingServiceProvider extends PackageServiceProvider
     protected function getCommands(): array
     {
         return [
-            fila - app - settingCommand::class,
+            FilaAppSettingCommand::class,
         ];
     }
 
@@ -141,7 +141,7 @@ class FilaAppsettingServiceProvider extends PackageServiceProvider
     protected function getMigrations(): array
     {
         return [
-            'create_fila-app-setting_table',
+            'create_fila_app_setting_table',
         ];
     }
 }
