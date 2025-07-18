@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace AsayHome\FilaAppSetting;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilaAppSettingPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'fila-app-setting';
     }
 
     public function register(Panel $panel): void

@@ -1,16 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton\Facades;
+namespace AsayHome\FilaAppSetting\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \VendorName\Skeleton\Skeleton
- */
 class Skeleton extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \VendorName\Skeleton\Skeleton::class;
+        return \AsayHome\FilaAppSetting\FilaAppSetting::class;
     }
 }

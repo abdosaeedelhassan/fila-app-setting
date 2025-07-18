@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AsayHome\FilaAppSetting\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilaAppSettingCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'fila-app-setting';
 
     public $description = 'My command';
 

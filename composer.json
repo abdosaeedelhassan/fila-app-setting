@@ -1,21 +1,21 @@
 {
-    "name": ":vendor_slug/:package_slug",
+    "name": "asayhome/fila-app-setting",
     "description": ":package_description",
     "keywords": [
-        ":vendor_name",
+        "asayhome",
         "laravel",
-        ":package_slug"
+        "fila-app-setting"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/asayhome/fila-app-setting",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/asayhome/fila-app-setting/issues",
+        "source": "https://github.com/asayhome/fila-app-setting"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdelrahman Saeed",
+            "email": "abdosaeedelhassan@gmail.com",
             "role": "Developer"
         }
     ],
@@ -41,13 +41,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AsayHome\\FilaAppSetting\\": "src/",
+            "AsayHome\\FilaAppSetting\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "AsayHome\\FilaAppSetting\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AsayHome\\FilaAppSetting\\FilaAppSettingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilaAppSetting": "AsayHome\\FilaAppSetting\\Facades\\FilaAppSetting"
             }
         }
     },
